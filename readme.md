@@ -121,25 +121,24 @@ const sumArray = (arr)=>{
 
 
 
-
 - Recursion doesn't have to use the call-stack this way; we can also pass data down through function calls to help us. Prove it, let's try to convert isPrime to a recursive function.
 
 old is Prime:
 
 ```js
-function isPrime(num){
-  if(num == 1){
-    return false
-  } {
-      return true
-  }
-  for(let i = 2; i < num - 1; i++){
-    if(num % i == 0){
+const  isPrime = (num)=> {
+    if(num == 1){
       return false
+    } else if (num == 2){
+        return true
     }
+    for(let i = 2; i < num - 1; i++){
+      if(num % i == 0){
+        return false
+      }
+    }
+    return true
   }
-  return true
-}
 ```
 
 
@@ -147,6 +146,8 @@ function isPrime(num){
 1. **Find in Array**: Write a function that takes an array and a string as paramters and returns true if the string is included in the array.
 2. **FizzBuzz** Write a function takes a number n as a paramter and, for each number from 1 to n, prints "fizz" if the number is divisible by 3, "buzz" if the number is divisible by 5, and "fizzBuzz" if the number is divisible by both 3 and 5.
 3. **Multiplication**: Implement a mult function that multiplies two numbers, a and b (no you can't use *. Obviously.)
+4. **CoinFLips**: This function returns an array of all possible outcomes from flipping a coin N times. (see problems.js)
+
 
 Bonus:
 ##### Let's make a function that turns every span-tag blue **without using DOM selectors!**.
