@@ -26,7 +26,7 @@ function sum(arr){
     }
 }
 
-const sumOneLiner = (a) => a.length == 1 ? a[0] : a[0] + sum((a.slice(1) ))
+const sumOneLiner = (a) => a.length == 1 ? a[0] : a[0] + sumOneLiner((a.slice(1) ))
 
 
 
@@ -49,6 +49,7 @@ function fibonacci(n) {
     return fibonacci(n - 1) + fibonacci(n - 2);
   }
 }
+
 
 // This function returns an array of all possible outcomes from flipping a coin N times.
 // Input type: Integer
