@@ -1,5 +1,5 @@
 # Recursion 101:
-[![Foo](http://www.fractalsciencekit.com/fractals/large/Fractal-Mobius-Patterns-05.jpg)](http://google.com.au/)
+[![](/Fractal-Mobius-Patterns-05.jpg)](http://google.com.au/)
 
 ### Goals:
 - Understand recursion "on a gut level"
