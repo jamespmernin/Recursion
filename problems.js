@@ -20,14 +20,20 @@ function fibonacci(){
     // For this function, the first two fibonacci numbers are 1 and 1
 }
 
-function findMax(arr){
+function reverseString() {
+	// This function takes a string and reverses it recursively.
+}
+
+
+function sumArray() {
+    // this function returns the sum of all of the numbers is a given array 
+}
+
+function findMax(){
     // This function returns the largest number in a given array.
 }
 
 
-function sumArray(arr) {
-
-}
 
 function coinFlips(){
     // This function returns an array of all possible outcomes from flipping a coin N times.
