@@ -4,7 +4,8 @@
   "description": "[![](/Fractal-Mobius-Patterns-05.jpg)](http://google.com.au/)",
   "main": "problems.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test-solutions": "env TEST_SOLUTIONS=true mocha"
   },
   "repository": {
     "type": "git",

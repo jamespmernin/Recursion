@@ -1,5 +1,6 @@
 const assert = require('assert');
-const fns = require('../problems.js')
+let pathToFuncitons = process.env.TEST_SOLUTIONS ? "../solutions.js" : '../problems.js'
+const fns = require(pathToFuncitons)
 
 describe('#factorial()', function() {
     it('handles base case', function() {
@@ -81,7 +82,10 @@ describe('#letterCombinations()', function() {
         assert.deepEqual(fns.letterCombinations(["a"]),["a"])
     });
     it('gets letter combinations', function() {
-        assert.equal(fns.letterCombinations(["abc"]).sort(),["a","b","c","ab","ac","ba","bc","ca","cb","abc","acb","bac","bca","cab","cba"].sort())
+        assert.deepEqual(
+            fns.letterCombinations(["a","b","c"]).sort(),
+            ["a","b","c","ab","ac","ba","bc","ca","cb","abc","acb","bac","bca","cab","cba"].sort()
+            )
     });
 
 });
