@@ -80,14 +80,6 @@ describe('#multipliction()', function() {
         assert.equal(fns.multiplication(100, 100),10000)
         assert.equal(fns.multiplication(23, 4),92)
     });
-    it('handles negatives', function() {
-        assert.equal(fns.multiplication(-1, 1), -1)
-        assert.equal(fns.multiplication(-1, -1), 1)
-        assert.equal(fns.multiplication(10, -10), -100)
-        assert.equal(fns.multiplication(10, 10), 100)
-
-
-    });
 });
 
 describe('#findMax()', function() {
