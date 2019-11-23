@@ -47,6 +47,49 @@ describe('#sumArray()', function() {
     });
 });
 
+describe('#findInArray()', function() {
+    it('handles base cases', function() {
+        assert.strictEqual(fns.findInArray([],'x'), false)
+        assert.strictEqual(fns.findInArray(['y'],'x'), false)
+        assert.strictEqual(fns.findInArray(['x'],'x'), true)
+
+    });
+    it('determines inclusion/exclusion', function() {
+        assert.strictEqual(fns.findInArray(['x', 'y'],'x'), true)
+        assert.strictEqual(fns.findInArray(['y', 'x'],'x'), true)
+        assert.strictEqual(fns.findInArray(['xx', 'xx'],'x'), false)
+        assert.strictEqual(fns.findInArray(['a','b','c','d', 'e', 'f', 'g'],'x'), false)
+        assert.strictEqual(fns.findInArray(['a','b','x','d', 'e', 'f', 'g'],'x'), true)
+    });
+});
+
+describe('#multipliction()', function() {
+    it('handles base cases', function() {
+        assert.equal(fns.multiplication(0,0), 0)
+        assert.equal(fns.multiplication(0,1),0)
+        assert.equal(fns.multiplication(1,0),0)
+        assert.equal(fns.multiplication(1,1),1)
+        assert.equal(fns.multiplication(1,10),10)
+        assert.equal(fns.multiplication(10,1),10)
+
+
+    });
+    it('multiplies', function() {
+        assert.equal(fns.multiplication(10,10),100)
+        assert.equal(fns.multiplication(50, 2),100)
+        assert.equal(fns.multiplication(100, 100),10000)
+        assert.equal(fns.multiplication(23, 4),92)
+    });
+    it('handles negatives', function() {
+        assert.equal(fns.multiplication(-1, 1), -1)
+        assert.equal(fns.multiplication(-1, -1), 1)
+        assert.equal(fns.multiplication(10, -10), -100)
+        assert.equal(fns.multiplication(10, 10), 100)
+
+
+    });
+});
+
 describe('#findMax()', function() {
     it('handles base case', function() {
         assert.equal(fns.findMax([1]),1)
