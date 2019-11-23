@@ -29,7 +29,7 @@ function reverseString() {
 }
 
 function multiplication (){
-    // this function takes in two numbers and returns their product
+    // this function takes in two numbers and returns their product (assume both numbers are non-negative)
 }
 
 
