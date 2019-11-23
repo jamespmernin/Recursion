@@ -59,3 +59,29 @@ describe('#findMax()', function() {
     });
 });
 
+describe('#coinflips()', function() {
+    it('calculates coin flips', function() {
+        assert.deepEqual(fns.coinFlips(1).sort(), ["T", "H"].sort())
+        assert.deepEqual(fns.coinFlips(2).sort(), ["TT", "HH", "TH", "HT"].sort())
+        assert.deepEqual(fns.coinFlips(3).sort(), 
+        ["TTT", "TTH", "THT", "THH", "HTT", "HTH", "HHT", "HHH" ].sort())
+    });
+    
+});
+describe('#coinflips()', function() {
+    it('calculates coin flips', function() {
+        assert.deepEqual(fns.coinFlips(1).sort(), ["T", "H"].sort())
+        assert.deepEqual(fns.coinFlips(2).sort(), ["TT", "HH", "TH", "HT"].sort())
+        assert.deepEqual(fns.coinFlips(3).sort(), 
+        ["TTT", "TTH", "THT", "THH", "HTT", "HTH", "HHT", "HHH" ].sort())
+    });
+});
+describe('#letterCombinations()', function() {
+    it('handles base case', function() {
+        assert.deepEqual(fns.letterCombinations(["a"]),["a"])
+    });
+    it('gets letter combinations', function() {
+        assert.equal(fns.letterCombinations(["abc"]).sort(),["a","b","c","ab","ac","ba","bc","ca","cb","abc","acb","bac","bca","cab","cba"].sort())
+    });
+
+});
