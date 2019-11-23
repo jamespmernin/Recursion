@@ -20,13 +20,25 @@ function fibonacci(){
     // For this function, the first two fibonacci numbers are 1 and 1
 }
 
+function fizzBuzz(){
+    // Write a function takes a number n as a paramter and, for each number from 1 to n, prints "fizz" if the number is divisible by 3, "buzz" if the number is divisible by 5, and "fizzBuzz" if the number is divisible by both 3 and 5.
+}
+
 function reverseString() {
 	// This function takes a string and reverses it recursively.
+}
+
+function multiplication (){
+    // this function takes in two numbers and returns their product
 }
 
 
 function sumArray() {
     // this function returns the sum of all of the numbers is a given array 
+}
+
+function findInArray(){
+       // this function takes an array of strings and a target string, and returns a boolean indicating whether the target string is included in the array
 }
 
 function findMax(){
@@ -56,8 +68,11 @@ module.exports = {
     factorial,
     fibonacci,
     reverseString,
+    fizzBuzz,
+    findInArray,
     sumArray,
     findMax,
     coinFlips,
-    letterCombinations
+    letterCombinations,
+    multiplication
 }
