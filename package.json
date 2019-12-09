@@ -1,0 +1,19 @@
+{
+  "name": "recursion-lesson",
+  "version": "1.0.0",
+  "description": "[![](/Fractal-Mobius-Patterns-05.jpg)](http://google.com.au/)",
+  "main": "problems.js",
+  "scripts": {
+    "test": "mocha",
+    "test-solutions": "env TEST_SOLUTIONS=true mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/sei-nyc-cheetahs/Recursion-Lesson"
+  },
+  "author": "Daniel Goldman",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^6.2.2"
+  }
+}
