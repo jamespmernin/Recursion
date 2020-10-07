@@ -46,11 +46,15 @@ Recursion helps you to reinforce core concepts; it can impress interviewers, pee
 
 </details>
 
+<br>
+
 ## Let's Experiment
 
 Let's consider the factorial function:
 
 `5! = 5*4*3*2*1`
+
+<br>
 
 ### First Things First
 
@@ -69,6 +73,7 @@ Some simple review:
 
 Alternatively, using the "recursive process", we will handle this with the call stack...
 
+<br>
 
 ### Second Things Second
 
@@ -86,7 +91,9 @@ const f = (n) => {
 }
 ```
 
--Cool! Think about what this solution looks like in the call stack; try to break down each step. 
+Cool! Think about what this solution looks like in the call stack; try to break down each step. 
+
+<br>
 
 ### Let's Try Another
 
@@ -102,11 +109,17 @@ const fib = (n) => {
 
 This recursive function will follow a very similar pattern to the factorial function.
 
+<br>
+
 #### Quick Consideration
 
 What is this function's big-O complexity?
 
+<br>
+
 ### Advanced Recursion
+
+<br>
 
 #### Exercise 1
 
@@ -123,6 +136,8 @@ const findMax = (arr) => {
 }
 ```
 
+<br>
+
 #### Exercise 2
 
 Now, let's use this same strategy to write a `sumArray` function.
@@ -132,6 +147,8 @@ const sumArray = (arr)=>{
     // code
 }
 ```
+
+<br>
 
 #### Exercise 3
 
@@ -157,9 +174,11 @@ const  isPrime = (num)=> {
   }
 ```
 
+<br>
+
 ### Recursion Practice
 
-With a partner, try writing some recursive functions:
+With a partner, try writing some more recursive functions:
 
 1. **Find in Array**: Write a function that takes an array and a string as paramters and returns true if the string is included in the array.
 1. **FizzBuzz** Write a function takes a number n as a paramter and, for each number from 1 to n, prints "fizz" if the number is divisible by 3, "buzz" if the number is divisible by 5, and "fizzBuzz" if the number is divisible by both 3 and 5.
