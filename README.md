@@ -16,7 +16,7 @@
 It looks like this:
 
 ```js
-const doStuff = ()=> {
+const doStuff = () => {
 // blah blah
 	doStuff()
 }
@@ -61,7 +61,7 @@ Let's consider the factorial function:
 Let's take a few minutes to write a javascript function that computes factorials *without using recursion*:
 
 ```js
-const f = (n)=>{
+const factorialLoops = (n) => {
     // code!
 }
 ```
@@ -86,7 +86,7 @@ First, some tips:
 - Think about a simple way to describe `1000!` to a non-programmer, pseudocode it, then turn that into code (I know that also sounds weird). 
   
 ```js
-const f = (n) => {
+const fibonacci = (n) => {
     // code!
 }
 ```
