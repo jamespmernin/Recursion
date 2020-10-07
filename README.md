@@ -86,7 +86,7 @@ First, some tips:
 - Think about a simple way to describe `1000!` to a non-programmer, pseudocode it, then turn that into code (I know that also sounds weird). 
   
 ```js
-const fibonacci = (n) => {
+const factorial = (n) => {
     // code!
 }
 ```
