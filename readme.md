@@ -9,7 +9,8 @@
 
 ## Overview
 
-<details><summary>What is recursion?</summary>
+<details>
+<summary><strong>What is recursion?</strong></summary>
 <br>
 
 It looks like this:
@@ -25,6 +26,8 @@ Anytime a function invokes itself, that's recursion!
 
 </details>
 
+<br>
+
 <details>
 <summary><strong>Recursion is hard! Why?</strong></summary>
 <br>
@@ -32,7 +35,9 @@ Anytime a function invokes itself, that's recursion!
 Recursion is generally hard to reason with; there are different ways to use recursion, and we're used to thinking in loops. Plus, when you mess up, your code crashes, just like `while` loops.
 
 </details>
+
 <br>
+
 <details>
 <summary><strong>...But recursion is also awesome! Why?</strong></summary>
 <br>
